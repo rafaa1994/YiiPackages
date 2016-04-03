@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/config/params-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/models/Admin.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/controllers/AdminController.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/main-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/main.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/admin/registeredUsers.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/console/config/main-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/controllers/SiteController.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/console/config/params-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/models/LoginForm.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/backend/views/layouts/main.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/admin/login.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/models/SignupForm.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/.gitignore</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/admin/index.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/site/contact.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/params.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/admin/signup.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/params-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/config/params.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/site/about.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/console/config/main.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/site/index.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/console/config/params.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/config/bootstrap.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/models/Companies.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/common/config/bootstrap.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/models/ContactForm.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/views/layouts/main.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/console/config/bootstrap.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/config/main-local.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/config/main.php</file>
+            <file>file:/C:/wamp/www/YiiPackages/yii2Task1/frontend/models/Filter.php</file>
+        </group>
+    </open-files>
+</project-private>
