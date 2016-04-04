@@ -15,7 +15,7 @@ class SignupForm extends Model
     public $email;
     public $slug;
     public $password;
-    public $company;
+    public $company_id;
     
 
     /**
@@ -33,8 +33,8 @@ class SignupForm extends Model
             ['surname', 'required'],
             ['surname', 'string', 'min' => 2, 'max' => 255],
             
-            ['company', 'filter','filter' => 'trim'],
-            ['company', 'required'],
+            ['company_id', 'filter','filter' => 'trim'],
+            ['company_id', 'required'],
             
 
             ['email', 'filter', 'filter' => 'trim'],
@@ -65,11 +65,11 @@ class SignupForm extends Model
         $user = new Admin();
         $user->username = $this->username;
         $user->surname = $this->surname;
-        $user->companies->name = $this->company;
-        $user->slug = $this->company;
+        $user->slug = "Not ready";
+        $user->company_id = $this->company_id;
         $user->email = $this->email;
         $user->setPassword($this->password);
         
-        return $user->save() ? $user : null;
+        return $user->save(false) ? $user : null;
     }
 }

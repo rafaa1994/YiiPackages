@@ -4391,3 +4391,3125 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1459721291.102
     'REQUEST_TIME' => 1459721291
 ]
+2016-04-04 12:00:36 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Admin::username' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('username', 'rafaa')
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(66): yii\db\BaseActiveRecord->__set('username', 'rafaa')
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#3 [internal function]: frontend\controllers\AdminController->actionSignup()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-04 12:00:36 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'NjhJVnh4N1FXDTojAgJhGH0ALmBVIAcZBw4uDBIyTQZ7X3owGg5SGQ=='
+    'SignupForm' => [
+        'username' => 'rafaa'
+        'surname' => 'rq'
+        'company' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '242'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '57569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459764036.39
+    'REQUEST_TIME' => 1459764036
+]
+2016-04-04 12:05:52 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Companies' in file: C:\wamp\www\YiiPackages\yii2Task1/frontend/models/Companies.php. Namespace missing?' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php(101): spl_autoload_call('frontend\\models...')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php(130): common\models\Admin->getCompanies()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('companies')
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(68): yii\db\BaseActiveRecord->__get('companies')
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 [internal function]: frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:05:52 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'NjhJVnh4N1FXDTojAgJhGH0ALmBVIAcZBw4uDBIyTQZ7X3owGg5SGQ=='
+    'SignupForm' => [
+        'username' => 'rafaa'
+        'surname' => 'rq'
+        'company' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '242'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '58938'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459764352.351
+    'REQUEST_TIME' => 1459764352
+]
+2016-04-04 12:15:15 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Indirect modification of overloaded property common\models\Admin::$companies has no effect' in C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php:68
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-04 12:15:15 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'NjhJVnh4N1FXDTojAgJhGH0ALmBVIAcZBw4uDBIyTQZ7X3owGg5SGQ=='
+    'SignupForm' => [
+        'username' => 'rafaa'
+        'surname' => 'rq'
+        'company' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '242'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '60456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459764915.704
+    'REQUEST_TIME' => 1459764915
+]
+2016-04-04 12:32:40 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:32:39 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'RUFVeDFCaUwkdCYNSzg/BQ55Mk4cGlkEdHcyIlsIExsIJmYeUzQMBA=='
+    'SignupForm' => [
+        'username' => 'Rafał'
+        'surname' => 'Stępień'
+        'company_id' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '267'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '62475'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459765959.033
+    'REQUEST_TIME' => 1459765959
+]
+2016-04-04 12:33:39 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:33:38 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'RUFVeDFCaUwkdCYNSzg/BQ55Mk4cGlkEdHcyIlsIExsIJmYeUzQMBA=='
+    'SignupForm' => [
+        'username' => 'Rafał'
+        'surname' => 'Stępień'
+        'company_id' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '267'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '62597'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766018.64
+    'REQUEST_TIME' => 1459766018
+]
+2016-04-04 12:36:52 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:36:51 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'VnBIaXNUa0g3RTscCS49AR1IL19eDFsAZ0YvMxkeER8bF3sPESIOAA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '250'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '62853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766211.242
+    'REQUEST_TIME' => 1459766211
+]
+2016-04-04 12:42:02 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:42:01 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'VnBIaXNUa0g3RTscCS49AR1IL19eDFsAZ0YvMxkeER8bF3sPESIOAA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '250'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63321'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766521.115
+    'REQUEST_TIME' => 1459766521
+]
+2016-04-04 12:42:35 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:42:34 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'VnBIaXNUa0g3RTscCS49AR1IL19eDFsAZ0YvMxkeER8bF3sPESIOAA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => 'HD'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '250'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63358'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766554.353
+    'REQUEST_TIME' => 1459766554
+]
+2016-04-04 12:44:33 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:44:31 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'NTJ3TUxHcVJUBwQ4Nj0nG34KEHthH0EaBAQQFyYNCwV4VUQrLjEUGg=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '123'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '251'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766671.971
+    'REQUEST_TIME' => 1459766671
+]
+2016-04-04 12:44:51 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(345): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(421): yii\base\Model->validate()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#12 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-04-04 12:44:50 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766690.588
+    'REQUEST_TIME' => 1459766690
+]
+2016-04-04 12:48:39 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Admin::created_at' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('created_at', 1459766919)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\behaviors\AttributeBehavior.php(101): yii\db\BaseActiveRecord->__set('created_at', 1459766919)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(888): yii\base\Component->trigger('beforeInsert', Object(yii\base\ModelEvent))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(453): yii\db\BaseActiveRecord->beforeSave(true)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(false, NULL)
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save(false)
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#10 [internal function]: frontend\controllers\AdminController->actionSignup()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#15 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-04-04 12:48:37 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63966'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459766917.929
+    'REQUEST_TIME' => 1459766917
+]
+2016-04-04 12:54:32 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:646
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(848): yii\base\Component->trigger()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Object.php(107): yii\db\BaseActiveRecord->init()
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(65): yii\base\Object->__construct()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 12:54:31 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '64372'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459767271.865
+    'REQUEST_TIME' => 1459767271
+]
+2016-04-04 12:56:31 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Admin::created_at' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('created_at', 1459767391)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\behaviors\AttributeBehavior.php(101): yii\db\BaseActiveRecord->__set('created_at', 1459767391)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(888): yii\base\Component->trigger('beforeInsert', Object(yii\base\ModelEvent))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(453): yii\db\BaseActiveRecord->beforeSave(true)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(false, NULL)
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save(false)
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#10 [internal function]: frontend\controllers\AdminController->actionSignup()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#15 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-04-04 12:56:30 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '64456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459767390.114
+    'REQUEST_TIME' => 1459767390
+]
+2016-04-04 12:57:18 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Admin::created_at' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('created_at', 1459767438)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\behaviors\AttributeBehavior.php(101): yii\db\BaseActiveRecord->__set('created_at', 1459767438)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(888): yii\base\Component->trigger('beforeInsert', Object(yii\base\ModelEvent))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(453): yii\db\BaseActiveRecord->beforeSave(true)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(false, NULL)
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save(false)
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#10 [internal function]: frontend\controllers\AdminController->actionSignup()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#15 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-04-04 12:57:17 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '64488'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459767437.258
+    'REQUEST_TIME' => 1459767437
+]
+2016-04-04 12:58:46 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: common\models\Admin::created_at' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(267): yii\base\Component->__set('created_at', 1459767526)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\behaviors\AttributeBehavior.php(101): yii\db\BaseActiveRecord->__set('created_at', 1459767526)
+#2 [internal function]: yii\behaviors\AttributeBehavior->evaluateAttributes(Object(yii\base\ModelEvent))
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php(541): call_user_func(Array, Object(yii\base\ModelEvent))
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(888): yii\base\Component->trigger('beforeInsert', Object(yii\base\ModelEvent))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(453): yii\db\BaseActiveRecord->beforeSave(true)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveRecord.php(427): yii\db\ActiveRecord->insertInternal(NULL)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(593): yii\db\ActiveRecord->insert(false, NULL)
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(73): yii\db\BaseActiveRecord->save(false)
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#10 [internal function]: frontend\controllers\AdminController->actionSignup()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('signup', Array)
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/signup', Array)
+#15 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#17 {main}
+2016-04-04 12:58:45 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '64630'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459767525.347
+    'REQUEST_TIME' => 1459767525
+]
+2016-04-04 13:04:02 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Argument 1 passed to yii\web\User::login() must be an instance of yii\web\IdentityInterface, instance of common\models\Admin given, called in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php on line 117 and defined' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\User.php:233
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-04 13:04:01 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '65135'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459767841.371
+    'REQUEST_TIME' => 1459767841
+]
+2016-04-04 13:11:52 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare common\models\Admin::validateAuthKey()' in C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php:159
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\validators\Validator.php(100): ::spl_autoload_call()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\validators\Validator.php(243): yii\validators\UniqueValidator->validateAttribute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\models\SignupForm.php(61): yii\base\Model->validate()
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(116): frontend\models\SignupForm->signup()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2016-04-04 13:11:52 [127.0.0.1][-][p416ogkjauqnu3dqkj5ajnc3j7][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'a3hxZTJlM1QKTQIQSB9lHSBAFlMfPQMcWk4WP1gvSQMmH0IDUBNWHA=='
+    'SignupForm' => [
+        'username' => 'Rafal'
+        'surname' => 'Stepien'
+        'company_id' => '1'
+        'email' => 'rafaa1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'p416ogkjauqnu3dqkj5ajnc3j7'
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '249'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=p416ogkjauqnu3dqkj5ajnc3j7; _csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '49841'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459768312.667
+    'REQUEST_TIME' => 1459768312
+]
+2016-04-04 13:29:16 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(178): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'order clause'
+The SQL being executed was: SELECT * FROM `administrator` ORDER BY `name` LIMIT 10' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all('<span class="ke...')
+#4 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(178): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'name' in 'order clause'
+)
+
+2016-04-04 13:29:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '50792'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459769356.408
+    'REQUEST_TIME' => 1459769356
+]
+2016-04-04 13:30:38 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\Admin::name' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('name')
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php(32): yii\db\BaseActiveRecord->__get('name')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\Yii...')
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\Yii...', Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\Yii...', Array, Object(frontend\controllers\AdminController))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('registeredUsers', Array, Object(frontend\controllers\AdminController))
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render('registeredUsers', Array)
+#7 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-04 13:30:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '51017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459769438.557
+    'REQUEST_TIME' => 1459769438
+]
+2016-04-04 13:31:36 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\Admin::Company' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('Company')
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php(32): yii\db\BaseActiveRecord->__get('Company')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\Yii...')
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\Yii...', Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\Yii...', Array, Object(frontend\controllers\AdminController))
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('registeredUsers', Array, Object(frontend\controllers\AdminController))
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render('registeredUsers', Array)
+#7 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2016-04-04 13:31:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '51217'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459769496.431
+    'REQUEST_TIME' => 1459769496
+]
+2016-04-04 13:33:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class frontend\models\Companies could not be converted to string' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 13:33:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '51550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459769619.958
+    'REQUEST_TIME' => 1459769619
+]
+2016-04-04 13:41:47 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class frontend\models\Companies could not be converted to string' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:34
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 13:41:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_POST = [
+    '_csrf' => 'N1JBWm5RbVlWZzIvFCs7EHxqJmxDCV0RBmQmAAQbFw56NXI8DCcIEQ=='
+    'Filter' => [
+        'radio' => [
+            0 => ''
+            1 => 'radio[1]'
+        ]
+    ]
+    'show-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '141'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin/registered-users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459770106.878
+    'REQUEST_TIME' => 1459770106
+]
+2016-04-04 13:48:25 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: registeredUsers' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:185
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-04 13:48:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_POST = [
+    '_csrf' => 'WVFvX0NHTEs4ZBwqOT0aAhJpCGluH3wDaGcIBSkNNhwUNlw5ITEpAw=='
+    'Filter' => [
+        'radio' => [
+            0 => ''
+            1 => 'radio[2]'
+        ]
+    ]
+    'show-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => 'nimcj58m4rq1cksvmcmpj8kj51'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '141'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin/registered-users'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=nimcj58m4rq1cksvmcmpj8kj51'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52688'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459770505.454
+    'REQUEST_TIME' => 1459770505
+]
+2016-04-04 14:03:52 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: registeredUsers' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:181
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-04 14:03:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54051'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771432.18
+    'REQUEST_TIME' => 1459771432
+]
+2016-04-04 14:05:25 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(189): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:05:25 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54174'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771525.343
+    'REQUEST_TIME' => 1459771525
+]
+2016-04-04 14:06:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(196): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771565.551
+    'REQUEST_TIME' => 1459771565
+]
+2016-04-04 14:06:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(196): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54227'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771566.67
+    'REQUEST_TIME' => 1459771566
+]
+2016-04-04 14:06:41 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54269'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771601.144
+    'REQUEST_TIME' => 1459771601
+]
+2016-04-04 14:06:42 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54268'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771602.246
+    'REQUEST_TIME' => 1459771602
+]
+2016-04-04 14:06:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54270'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771602.974
+    'REQUEST_TIME' => 1459771602
+]
+2016-04-04 14:06:43 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54272'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771603.679
+    'REQUEST_TIME' => 1459771603
+]
+2016-04-04 14:06:44 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54274'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771604.311
+    'REQUEST_TIME' => 1459771604
+]
+2016-04-04 14:06:45 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771604.98
+    'REQUEST_TIME' => 1459771604
+]
+2016-04-04 14:06:45 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:06:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459771605.566
+    'REQUEST_TIME' => 1459771605
+]
+2016-04-04 14:15:12 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\registeredUsers.php:32
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(186): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionRegisteredUsers()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-04 14:15:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+    'page' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'Mmt6SjFVQ1VTXgk/Sy8VHHlTHXwcDXMdA10dEFsfOQJ/DEksUyMmHQ=='
+    'Filter' => [
+        'radio' => [
+            0 => ''
+            1 => 'radio[3]'
+        ]
+    ]
+    'show-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '145'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fregistered-users&page=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '54791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users&page=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users&page=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459772112.32
+    'REQUEST_TIME' => 1459772112
+]
+2016-04-04 14:30:05 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Filter::radio_name' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\validators\Validator.php(240): yii\base\Component->__get('radio_name')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(356): yii\validators\Validator->validateAttributes(Object(frontend\models\Filter), Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(142): yii\base\Model->validate()
+#3 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-04-04 14:30:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+    'page' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'TlhVanAual8vbSYfClQ8FgVgMlxddloXf24yMBpkEAgDP2YMElgPFw=='
+    'Filter' => [
+        'radio' => [
+            0 => ''
+            1 => 'radio[0]'
+        ]
+    ]
+    'show-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '141'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fregistered-users&page=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '56013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users&page=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users&page=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459773005.209
+    'REQUEST_TIME' => 1459773005
+]
+2016-04-04 14:53:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "giit".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('giit', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-04 14:53:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'giit'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '58090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=giit'
+    'REQUEST_URI' => '/index.php?r=giit'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459774416.087
+    'REQUEST_TIME' => 1459774416
+]
+2016-04-04 15:01:15 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php:441
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(185): yii\base\Model->getValidators()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Model.php(751): yii\base\Model->scenarios()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php(11): yii\base\Model->safeAttributes()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(182): yii\gii\Generator->render()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(50): yii\gii\generators\crud\Generator->generate()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#14 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2016-04-04 15:01:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'dEtzMVpjX2gVfgBEIBkJIT9zFAd3O28gRX0UazApJT85LEBXOBU6IA=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Admin'
+        'searchModelClass' => 'frontend\\models\\SearchAdmin'
+        'controllerClass' => 'frontend\\controllers\\Admin1Controller'
+        'viewPath' => '@app/views/admin'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '0'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '526'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '58769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=crud'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=crud'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459774875.117
+    'REQUEST_TIME' => 1459774875
+]
+2016-04-04 15:54:33 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\SearchPlayers' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:187
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-04 15:54:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '62810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459778073.03
+    'REQUEST_TIME' => 1459778073
+]
+2016-04-04 15:59:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\SearchPlayers' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:188
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-04 15:59:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63103'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459778393.954
+    'REQUEST_TIME' => 1459778393
+]
+2016-04-04 15:59:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\SearchPlayers' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:188
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-04-04 15:59:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63106'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459778395.264
+    'REQUEST_TIME' => 1459778395
+]
+2016-04-04 16:00:32 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\models\SearchAdmin' in file: C:\wamp\www\YiiPackages\yii2Task1\frontend/models/SearchAdmin.php. Namespace missing?' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\models\\Sear...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(188): spl_autoload_call('app\\models\\Sear...')
+#2 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-04 16:00:31 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459778431.953
+    'REQUEST_TIME' => 1459778431
+]
+2016-04-04 16:01:00 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\SearchAdmin' in file: C:\wamp\www\YiiPackages\yii2Task1/frontend/models/SearchAdmin.php. Namespace missing?' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(188): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\AdminController->actionRegisteredUsers()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-04 16:01:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"a5suzzVIK8g6-X0H16gZjJzWMg3fbveH\";}'
+    'PHPSESSID' => '44pegvqk8vgvhggfpoe91rhms2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=136c7d987c7f13091b2fc488c25ff88b91eaf5c11146cb5e9e32592b2837528ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22a5suzzVIK8g6-X0H16gZjJzWMg3fbveH%22%3B%7D; PHPSESSID=44pegvqk8vgvhggfpoe91rhms2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '63213'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin/registered-users'
+    'REQUEST_URI' => '/index.php?r=admin/registered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1459778460.313
+    'REQUEST_TIME' => 1459778460
+]

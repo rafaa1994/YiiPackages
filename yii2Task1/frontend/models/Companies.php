@@ -1,7 +1,15 @@
 <?php
 
+namespace frontend\models;
 use yii\db\ActiveRecord;
 use common\models\Admin;
+
+/**
+ * Companies model
+ *
+ * @property integer $id
+ * @property string $name
+**/
 
 class Companies extends ActiveRecord {
     
@@ -14,6 +22,12 @@ class Companies extends ActiveRecord {
     }
     
     public function getAdmin(){
-        return $this->hasMany(Admin::className(), ['company_id' => 'companies_id']);
+        return $this->hasOne(Admin::className(), ['company_id' => 'id']);
     }
+    
+    public static function findIdentity($id)
+    {
+        return static::findOne(['id' => $id]);
+    }
+    
 }

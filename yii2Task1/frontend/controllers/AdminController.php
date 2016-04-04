@@ -10,6 +10,7 @@ use frontend\models\SignupForm;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use frontend\models\SearchAdmin;
 
 /**
  * Site controller
@@ -139,26 +140,28 @@ class AdminController extends Controller
         if ($filter->load(Yii::$app->request->post()))
         {
         
+          
             if($filter->getStateRadioName()){
-            $registeredUsers = $query->orderBy('name')
+            $registeredUsers = $query->orderBy('username')
                 ->offset($pagination->offset)
                 ->limit($pagination->limit)
                 ->all();
             }
         
-            if($filter->getStateRadioSurname()){
+           else if($filter->getStateRadioSurname()){
             $registeredUsers = $query->orderBy('surname')
                 ->offset($pagination->offset)
                 ->limit($pagination->limit)
                 ->all();
             }
         
-            if($filter->getStateRadioCompany()){
+            else if($filter->getStateRadioCompany()){
             $registeredUsers = $query->orderBy('company')
                 ->offset($pagination->offset)
                 ->limit($pagination->limit)
                 ->all();
             }
+            
         
             if($filter->getStateRadioEmail()){
             $registeredUsers = $query->orderBy('email')
@@ -167,23 +170,36 @@ class AdminController extends Controller
                 ->all();
             }
         
+            return $this->render('registeredUsers', 
+                [ 'pagination' => $pagination ,
+                  'filter' => $filter, 
+                  'registeredUsers' => $registeredUsers,
+                ]);
         
         }else{
             
             //default
             
-            $registeredUsers = $query->orderBy('name')
+            $registeredUsers = $query->orderBy('username')
                 ->offset($pagination->offset)
                 ->limit($pagination->limit)
                 ->all();
-            }
+            
+        $searchModel = new SearchAdmin();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('registeredUsers', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'pagination' => $pagination ,
+                  'filter' => $filter, 
+                 'registeredUsers' => $registeredUsers,
+        ]);
+   
+        }
             
         
-        return $this->render('registeredUsers', 
-                [ 'pagination' => $pagination ,
-                  'filter' => $filter, 
-                  'registeredUsers' => $registeredUsers,
-                ]);
+        
          
         
     }

@@ -11,7 +11,10 @@ use Yii;
 class Filter extends Model {
     
 
-    public $radio = ['radio_name' => true, 'radio_surname' => false,'radio_company' => false,'radio_email' => false];
+    public $radio = ['radio_name' => true, 
+                     'radio_surname' => false,
+                     'radio_company' => false,
+                     'radio_email' => false];
     
     public function rules() {
         

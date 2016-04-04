@@ -29,11 +29,29 @@ $this->params['breadcrumbs'][] = $this->title;
            <ul>
                <?php foreach ($registeredUsers as $regUser): ?>
                <li>
-                   <?= Html::encode("{$regUser->name} {$regUser->surname} {$regUser->slug} {$regUser->email} {$regUser->Company}") ?>
+                   <?= Html::encode("{$regUser->username} {$regUser->surname} {$regUser->slug} {$regUser->email} {$regUser->companies->name}") ?>
                </li>
+               
                <?php endforeach; ?>
            </ul>
            <?=LinkPager::widget(['pagination' => $pagination])?>
+           
+         <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+
+            'id',
+            'username',
+            'surname',
+            'email',
+            'company_id',
+            'slug',
+
+            ['class' => 'yii\grid\ActionColumn'],
+        ],
+    ]); ?>
            
        </div>
     </div>
