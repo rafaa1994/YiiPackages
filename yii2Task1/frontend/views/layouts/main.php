@@ -43,6 +43,7 @@ AppAsset::register($this);
         $menuItems[] = ['label' => 'Signup', 'url' => ['/admin/signup']];
         $menuItems[] = ['label' => 'Login', 'url' => ['/admin/login']];
     } else {
+        $menuItems[] = ['label' => 'Lista użytkowników', 'url' => ['/admin/registered-users']];
         $menuItems[] = '<li>'
             . Html::beginForm(['/admin/logout'], 'post')
             . Html::submitButton(
@@ -51,6 +52,7 @@ AppAsset::register($this);
             )
             . Html::endForm()
             . '</li>';
+        
     }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],

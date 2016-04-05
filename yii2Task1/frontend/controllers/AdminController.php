@@ -1,10 +1,9 @@
 <?php
+
 namespace frontend\controllers;
 
 use Yii;
-use yii\data\Pagination;
 use common\models\Admin;
-use frontend\models\Filter;
 use common\models\LoginForm;
 use frontend\models\SignupForm;
 use yii\web\Controller;
@@ -15,13 +14,12 @@ use frontend\models\SearchAdmin;
 /**
  * Site controller
  */
-class AdminController extends Controller
-{
+class AdminController extends Controller {
+
     /**
      * @inheritdoc
      */
-    public function behaviors()
-    {
+    public function behaviors() {
         return [
             'access' => [
                 'class' => AccessControl::className(),
@@ -51,8 +49,7 @@ class AdminController extends Controller
     /**
      * @inheritdoc
      */
-    public function actions()
-    {
+    public function actions() {
         return [
             'error' => [
                 'class' => 'yii\web\ErrorAction',
@@ -69,8 +66,7 @@ class AdminController extends Controller
      *
      * @return mixed
      */
-    public function actionIndex()
-    {
+    public function actionIndex() {
         return $this->render('index');
     }
 
@@ -79,8 +75,7 @@ class AdminController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
-    {
+    public function actionLogin() {
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
@@ -90,30 +85,26 @@ class AdminController extends Controller
             return $this->goBack();
         } else {
             return $this->render('login', [
-                'model' => $model,
+                        'model' => $model,
             ]);
         }
     }
-    
-    public function actionLogout(){
-        
-            Yii::$app->user->logout();
-        
-            return $this->goHome(); 
-        }
-           
-    
 
-        /**
+    public function actionLogout() {
+
+        Yii::$app->user->logout();
+
+        return $this->goHome();
+    }
+
+    /**
      * Signs user up.
      *
      * @return mixed
      */
-    public function actionSignup()
-    {
+    public function actionSignup() {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
-            //$model->slug = $name;
             if ($user = $model->signup()) {
                 if (Yii::$app->getUser()->login($user)) {
                     return $this->goHome();
@@ -122,86 +113,23 @@ class AdminController extends Controller
         }
 
         return $this->render('signup', [
-            'model' => $model,
+                    'model' => $model,
         ]);
     }
-    
-    public function actionRegisteredUsers(){
-        
-        
-        $query = Admin::find();
-        $pagination = new Pagination([
-            'defaultPageSize' => 10,
-            'totalCount' => $query->count(),
-        ]);
-        
-        $filter = new Filter();
-        
-        if ($filter->load(Yii::$app->request->post()))
-        {
-        
-          
-            if($filter->getStateRadioName()){
-            $registeredUsers = $query->orderBy('username')
-                ->offset($pagination->offset)
-                ->limit($pagination->limit)
-                ->all();
-            }
-        
-           else if($filter->getStateRadioSurname()){
-            $registeredUsers = $query->orderBy('surname')
-                ->offset($pagination->offset)
-                ->limit($pagination->limit)
-                ->all();
-            }
-        
-            else if($filter->getStateRadioCompany()){
-            $registeredUsers = $query->orderBy('company')
-                ->offset($pagination->offset)
-                ->limit($pagination->limit)
-                ->all();
-            }
-            
-        
-            if($filter->getStateRadioEmail()){
-            $registeredUsers = $query->orderBy('email')
-                ->offset($pagination->offset)
-                ->limit($pagination->limit)
-                ->all();
-            }
-        
-            return $this->render('registeredUsers', 
-                [ 'pagination' => $pagination ,
-                  'filter' => $filter, 
-                  'registeredUsers' => $registeredUsers,
-                ]);
-        
-        }else{
-            
-            //default
-            
-            $registeredUsers = $query->orderBy('username')
-                ->offset($pagination->offset)
-                ->limit($pagination->limit)
-                ->all();
-            
-        $searchModel = new SearchAdmin();
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        return $this->render('registeredUsers', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
-            'pagination' => $pagination ,
-                  'filter' => $filter, 
-                 'registeredUsers' => $registeredUsers,
-        ]);
-   
+    public function actionRegisteredUsers() {
+
+        if (!\Yii::$app->getUser()->isGuest) {
+            $searchModel = new SearchAdmin();
+            $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+            return $this->render('registeredUsers', [
+                        'searchModel' => $searchModel,
+                        'dataProvider' => $dataProvider,
+            ]);
+        } else {
+            return $this->goHome();
         }
-            
-        
-        
-         
-        
     }
 
 }
