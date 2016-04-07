@@ -3,7 +3,6 @@
 namespace frontend\controllers;
 
 use Yii;
-use common\models\Admin;
 use common\models\LoginForm;
 use frontend\models\SignupForm;
 use yii\web\Controller;
@@ -29,6 +28,11 @@ class AdminController extends Controller {
                         'actions' => ['signup'],
                         'allow' => true,
                         'roles' => ['?'],
+                    ],
+                    [
+                        'actions' => ['registered-users'],
+                        'allow' => true,
+                        'roles' => ['@'],
                     ],
                     [
                         'actions' => ['logout'],
@@ -89,7 +93,6 @@ class AdminController extends Controller {
             ]);
         }
     }
-
     public function actionLogout() {
 
         Yii::$app->user->logout();
@@ -119,17 +122,18 @@ class AdminController extends Controller {
 
     public function actionRegisteredUsers() {
 
-        if (!\Yii::$app->getUser()->isGuest) {
-            $searchModel = new SearchAdmin();
-            $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-            return $this->render('registeredUsers', [
-                        'searchModel' => $searchModel,
-                        'dataProvider' => $dataProvider,
-            ]);
-        } else {
+        if (\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
+
+        $searchModel = new SearchAdmin();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+
+        return $this->render('registeredUsers', [
+                    'searchModel' => $searchModel,
+                    'dataProvider' => $dataProvider,
+        ]);
     }
 
 }

@@ -11,6 +11,7 @@ use frontend\models\ContactForm;
 /**
  * Site controller
  */
+
 class SiteController extends Controller
 {
     /**
@@ -69,8 +70,6 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
-
-
 
     /**
      * Displays contact page.

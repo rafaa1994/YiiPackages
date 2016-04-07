@@ -18,11 +18,9 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="col-lg-5">
             <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-            <?= $form->field($model, 'username')->label('Username') ?>
+            <?= $form->field($model, 'name')->label('Name') ?>
 
             <?= $form->field($model, 'surname')->label('Surname') ?>
-
-            <?= $form->field($model, 'company_id')->label('Company ID') ?>
 
             <?= $form->field($model, 'email')->label('Email') ?>
 
@@ -31,7 +29,6 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="form-group">
                 <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
             </div>
-
             <?php ActiveForm::end(); ?>
         </div>
     </div>

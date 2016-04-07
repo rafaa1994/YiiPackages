@@ -3,6 +3,7 @@
 namespace frontend\models;
 
 use common\models\Admin;
+use frontend\models\Company;
 use yii\base\Model;
 use Yii;
 
@@ -11,7 +12,7 @@ use Yii;
  */
 class SignupForm extends Model {
 
-    public $username;
+    public $name;
     public $surname;
     public $email;
     public $password;
@@ -27,14 +28,12 @@ class SignupForm extends Model {
      */
     public function rules() {
         return [
-            ['username', 'filter', 'filter' => 'trim'],
-            ['username', 'required'],
-            ['username', 'string', 'min' => 2, 'max' => 255],
+            ['name', 'filter', 'filter' => 'trim'],
+            ['name', 'required'],
+            ['name', 'string', 'min' => 2, 'max' => 255],
             ['surname', 'filter', 'filter' => 'trim'],
             ['surname', 'required'],
             ['surname', 'string', 'min' => 2, 'max' => 255],
-            ['company_id', 'filter', 'filter' => 'trim'],
-            ['company_id', 'required'],
             ['email', 'filter', 'filter' => 'trim'],
             ['email', 'required'],
             ['email', 'email'],
@@ -57,12 +56,14 @@ class SignupForm extends Model {
             return null;
         }
 
+        $company_id = new Company();
         $user = new Admin();
-        $user->username = $this->username;
+        $user->name = $this->name;
         $user->surname = $this->surname;
-        $user->company_id = $this->company_id;
+        $user->company_id = $company_id->getRandomCompanyID();
         $user->email = $this->email;
         $user->setPassword($this->password);
+        
 
         return $user->save() ? $user : null;
     }

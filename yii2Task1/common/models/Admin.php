@@ -6,14 +6,14 @@ use Yii;
 use yii\base\NotSupportedException;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
-use frontend\models\Companies;
+use frontend\models\Company;
 use yii\behaviors\SluggableBehavior;
 
 /**
  * Admin model
  *
  * @property integer $id
- * @property string $username
+ * @property string $name
  * @property string $surname
  * @property string $slug
  * @property integer $company_id
@@ -37,8 +37,7 @@ class Admin extends ActiveRecord implements IdentityInterface {
 
             [
                 'class' => SluggableBehavior::className(),
-                'attribute' => 'username',
-                'slugAttribute' => 'slug',
+                'attribute' => 'name',
                 'immutable' => true,
                 'ensureUnique' => true,
             ],
@@ -57,7 +56,7 @@ class Admin extends ActiveRecord implements IdentityInterface {
 
         return
                 [
-                    'company_id' => 'Company Name'
+                    'company_id' => 'Company'
         ];
     }
 
@@ -69,7 +68,7 @@ class Admin extends ActiveRecord implements IdentityInterface {
     }
 
     public static function findByUsername($username) {
-        return static::findOne(['username' => $username]);
+        return static::findOne(['name' => $username]);
     }
 
     public static function findByEmail($email) {
@@ -149,8 +148,8 @@ class Admin extends ActiveRecord implements IdentityInterface {
         $this->password_hash = Yii::$app->security->generatePasswordHash($password);
     }
 
-    public function getCompanies() {
-        return $this->hasOne(Companies::className(), ['company_id' => 'company_id']);
+    public function getCompany() {
+        return $this->hasOne(Company::className(), ['id' => 'company_id']);
     }
 
     /**
