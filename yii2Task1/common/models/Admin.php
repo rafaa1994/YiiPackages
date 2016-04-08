@@ -19,8 +19,12 @@ use yii\behaviors\SluggableBehavior;
  * @property integer $company_id
  * @property string $email
  * @property string $password write-only password
+ * @property integer $role
  */
 class Admin extends ActiveRecord implements IdentityInterface {
+
+    const ROLE_ADMIN = 10;
+    const ROLE_ROOT = 20;
 
     /**
      * @inheritdoc
@@ -34,7 +38,6 @@ class Admin extends ActiveRecord implements IdentityInterface {
      */
     public function behaviors() {
         return [
-
             [
                 'class' => SluggableBehavior::className(),
                 'attribute' => 'name',
@@ -49,6 +52,20 @@ class Admin extends ActiveRecord implements IdentityInterface {
      */
     public function rules() {
         return [
+            ['role', 'default', 'value' => 10],
+            ['role', 'in', 'range' => [self::ROLE_ADMIN, self::ROLE_ROOT]],
+            ['name', 'filter', 'filter' => 'trim'],
+            // ['name', 'required'],
+            ['name', 'string', 'min' => 2, 'max' => 255],
+            ['surname', 'filter', 'filter' => 'trim'],
+            // ['surname', 'required'],
+            ['surname', 'string', 'min' => 2, 'max' => 255],
+            ['email', 'filter', 'filter' => 'trim'],
+            //['email', 'required'],
+            ['email', 'email'],
+            ['email', 'string', 'max' => 255],
+            ['email', 'unique', 'targetClass' => '\common\models\Admin', 'message' => 'This email address has already been taken.'],
+            ['company_id', 'integer'],
         ];
     }
 
@@ -157,6 +174,24 @@ class Admin extends ActiveRecord implements IdentityInterface {
      */
     public static function findIdentityByAccessToken($token, $type = null) {
         throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
+    }
+
+    public static function isAdmin($email) {
+
+        if (static::findOne(['email' => $email, 'role' => self::ROLE_ADMIN])) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static function isRootAdmin($email) {
+
+        if (static::findOne(['email' => $email, 'role' => self::ROLE_ROOT])) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }

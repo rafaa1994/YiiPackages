@@ -9,6 +9,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use frontend\models\SearchAdmin;
+use common\models\Admin;
 
 /**
  * Site controller
@@ -30,7 +31,7 @@ class AdminController extends Controller {
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['registered-users'],
+                        'actions' => ['search'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
@@ -93,6 +94,7 @@ class AdminController extends Controller {
             ]);
         }
     }
+
     public function actionLogout() {
 
         Yii::$app->user->logout();
@@ -120,7 +122,7 @@ class AdminController extends Controller {
         ]);
     }
 
-    public function actionRegisteredUsers() {
+    public function actionSearch() {
 
 
         if (\Yii::$app->user->isGuest) {
@@ -129,11 +131,49 @@ class AdminController extends Controller {
 
         $searchModel = new SearchAdmin();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $name = Yii::$app->user->identity;
+        $model = Admin::isRootAdmin($name['email']);
 
-        return $this->render('registeredUsers', [
+        return $this->render('search', [
                     'searchModel' => $searchModel,
                     'dataProvider' => $dataProvider,
+                    'model' => $model,
         ]);
+    }
+
+    public function actionView($id) {
+
+        $model = $this->findModel($id);
+        return $this->render('view', [ 'model' => $model
+        ]);
+    }
+
+    public function actionUpdate($id) {
+
+        $model = $this->findModel($id);
+        $user = Yii::$app->user->identity;
+        $access = Admin::isRootAdmin($user->email);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->render('view', [
+                        'model' => $model,
+                        
+            ]);
+        } 
+        
+            return $this->render('update', [ 
+                'model' => $model,
+                'access' => $access,
+            ]);
+        
+    }
+
+    protected function findModel($id) {
+
+        if (($model = Admin::findOne($id)) !== null) {
+            return $model;
+        } else {
+            throw new NotFoundHttpException('The requested page does not exist.');
+        }
     }
 
 }

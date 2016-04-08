@@ -21717,3 +21717,1385 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460036209.731
     'REQUEST_TIME' => 1460036209
 ]
+2016-04-08 00:24:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "player/_form".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('player/_form', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 00:24:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'player/_form'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'me1duqt2nmq81be041aj0jcbq4'
+    '_csrf' => 'dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=me1duqt2nmq81be041aj0jcbq4; _csrf=dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59643'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=player/_form'
+    'REQUEST_URI' => '/index.php?r=player/_form'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460067889.521
+    'REQUEST_TIME' => 1460067889
+]
+2016-04-08 00:25:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "player/index".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('player/index', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 00:25:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'player/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'me1duqt2nmq81be041aj0jcbq4'
+    '_csrf' => 'dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=me1duqt2nmq81be041aj0jcbq4; _csrf=dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=player/index'
+    'REQUEST_URI' => '/index.php?r=player/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460067901.68
+    'REQUEST_TIME' => 1460067901
+]
+2016-04-08 00:25:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "players/index".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('players/index', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 00:25:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'players/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'me1duqt2nmq81be041aj0jcbq4'
+    '_csrf' => 'dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=me1duqt2nmq81be041aj0jcbq4; _csrf=dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59756'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=players/index'
+    'REQUEST_URI' => '/index.php?r=players/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460067914.614
+    'REQUEST_TIME' => 1460067914
+]
+2016-04-08 00:25:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "players/index.php".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('players/index.p...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 00:25:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'players/index.php'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'me1duqt2nmq81be041aj0jcbq4'
+    '_csrf' => 'dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=me1duqt2nmq81be041aj0jcbq4; _csrf=dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=players/index.php'
+    'REQUEST_URI' => '/index.php?r=players/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460067929.467
+    'REQUEST_TIME' => 1460067929
+]
+2016-04-08 00:25:37 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "players/view".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('players/view', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 00:25:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'players/view'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'me1duqt2nmq81be041aj0jcbq4'
+    '_csrf' => 'dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=me1duqt2nmq81be041aj0jcbq4; _csrf=dc239424d1c421f808d696c5fc257272f25e2af6d4f1a52e347c17ca57c8f52ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22HFexE-KemubO6MWGkFL8Jqk-OLnQ5_Dc%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=players/view'
+    'REQUEST_URI' => '/index.php?r=players/view'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460067937.298
+    'REQUEST_TIME' => 1460067937
+]
+2016-04-08 13:29:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/registered-users' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:29:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52498'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460114985.068
+    'REQUEST_TIME' => 1460114985
+]
+2016-04-08 13:31:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/registered-users' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115063.096
+    'REQUEST_TIME' => 1460115063
+]
+2016-04-08 13:31:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/registered-users' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52709'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115063.886
+    'REQUEST_TIME' => 1460115063
+]
+2016-04-08 13:31:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/registered-users' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52710'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115064.452
+    'REQUEST_TIME' => 1460115064
+]
+2016-04-08 13:31:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/registered-users' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('registered-user...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/registere...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/registered-users'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52711'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fregistered-users'
+    'REQUEST_URI' => '/index.php?r=admin%2Fregistered-users'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115064.663
+    'REQUEST_TIME' => 1460115064
+]
+2016-04-08 13:31:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/update' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/update', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52719'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115073.811
+    'REQUEST_TIME' => 1460115073
+]
+2016-04-08 13:31:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/view' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/view', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:31:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52797'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115105.906
+    'REQUEST_TIME' => 1460115105
+]
+2016-04-08 13:38:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/view' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/view', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-04-08 13:38:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '53449'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460115516.854
+    'REQUEST_TIME' => 1460115516
+]
+2016-04-08 14:26:39 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: frontend\controllers\AdminController::findModel()' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(141): yii\base\Component->__call('findModel', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(141): frontend\controllers\AdminController->findModel('1')
+#2 [internal function]: frontend\controllers\AdminController->actionView('1')
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/view', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-04-08 14:26:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '58186'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460118399.092
+    'REQUEST_TIME' => 1460118399
+]
+2016-04-08 14:36:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Admin' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:158
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionView()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-08 14:36:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59260'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460119005.076
+    'REQUEST_TIME' => 1460119005
+]
+2016-04-08 14:37:38 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\Admin' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:159
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionView()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-08 14:37:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59318'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460119058.588
+    'REQUEST_TIME' => 1460119058
+]
+2016-04-08 14:37:51 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\Admin::code' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('code')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(204): yii\db\BaseActiveRecord->__get('code')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\widgets\DetailView.php(215): yii\helpers\BaseArrayHelper::getValue(Object(common\models\Admin), 'code')
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\widgets\DetailView.php(124): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\Object->__construct(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\di\Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Widget.php(97): yii\BaseYii::createObject(Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\view.php(14): yii\base\Widget::widget(Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\Yii...')
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\Yii...', Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\Yii...', Array, Object(frontend\controllers\AdminController))
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('view', Array, Object(frontend\controllers\AdminController))
+#15 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(146): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\AdminController->actionView('1')
+#17 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#20 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/view', Array)
+#21 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+2016-04-08 14:37:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59329'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460119071.682
+    'REQUEST_TIME' => 1460119071
+]
+2016-04-08 14:38:49 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\Admin::code' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(247): yii\base\Component->__get('code')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(204): yii\db\BaseActiveRecord->__get('code')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\widgets\DetailView.php(215): yii\helpers\BaseArrayHelper::getValue(Object(common\models\Admin), 'code')
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\widgets\DetailView.php(124): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\Object->__construct(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\di\Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Widget.php(97): yii\BaseYii::createObject(Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\view.php(14): yii\base\Widget::widget(Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\Yii...')
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\Yii...', Array)
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\Yii...', Array, Object(frontend\controllers\AdminController))
+#14 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render('view', Array, Object(frontend\controllers\AdminController))
+#15 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(146): yii\base\Controller->render('view', Array)
+#16 [internal function]: frontend\controllers\AdminController->actionView('1')
+#17 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#20 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/view', Array)
+#21 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#23 {main}
+2016-04-08 14:38:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'admin/view'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fsearch'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '59364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fview&id=1'
+    'REQUEST_URI' => '/index.php?r=admin%2Fview&id=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460119128.898
+    'REQUEST_TIME' => 1460119128
+]
+2016-04-08 15:02:56 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Admin' not found' in C:\wamp\www\YiiPackages\yii2Task1\frontend\views\admin\search.php:31
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(377): yii\base\View->render()
+#3 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(139): yii\base\Controller->render()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSearch()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2016-04-08 15:02:55 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][info][application] $_GET = [
+    'r' => 'admin/search'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '61235'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fsearch'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsearch'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460120575.87
+    'REQUEST_TIME' => 1460120575
+]
+2016-04-08 15:07:56 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'Object of class common\models\Admin could not be converted to string' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:282
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(226): yii\db\Command->bindPendingParams()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#6 C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php(178): yii\db\BaseActiveRecord::findOne()
+#7 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(134): common\models\Admin::isRootAdmin()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSearch()
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#13 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#14 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'Object of class common\models\Admin could not be converted to string
+Failed to prepare SQL: SELECT * FROM `administrator` WHERE (`username`=:qp0) AND (`role`=:qp1)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:230
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Command->prepare(true)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php(178): yii\db\BaseActiveRecord::findOne(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(134): common\models\Admin::isRootAdmin(Object(common\models\Admin))
+#7 [internal function]: frontend\controllers\AdminController->actionSearch()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('search', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin/search', Array)
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+
+2016-04-08 15:07:56 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][info][application] $_GET = [
+    'r' => 'admin/search'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '61449'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fsearch'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsearch'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460120876.429
+    'REQUEST_TIME' => 1460120876
+]
+2016-04-08 15:09:53 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:840
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(840): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php(178): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(135): common\models\Admin::isRootAdmin('<span class="st...')
+#7 [internal function]: frontend\controllers\AdminController->actionSearch()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'
+The SQL being executed was: SELECT * FROM `administrator` WHERE (`username`='rafaa@gmail.com') AND (`role`=20)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(855): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one('<span class="ke...')
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 C:\wamp\www\YiiPackages\yii2Task1\common\models\Admin.php(178): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(135): common\models\Admin::isRootAdmin('<span class="st...')
+#7 [internal function]: frontend\controllers\AdminController->actionSearch()
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#12 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'username' in 'where clause'
+)
+
+2016-04-08 15:09:52 [127.0.0.1][2][0pc5gulpsj8ghoksbo03kc5s65][info][application] $_GET = [
+    'r' => 'admin/search'
+]
+
+$_COOKIE = [
+    '_csrf' => '503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk\";}'
+    'PHPSESSID' => '0pc5gulpsj8ghoksbo03kc5s65'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 2
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fview&id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=503a5aedce652f6066da720488a5b6a26c80fc822f3a6fe37181c7a99231427da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22xkwN5qnfki1NFWiH-gSZ9eqqoemit1yk%22%3B%7D; PHPSESSID=0pc5gulpsj8ghoksbo03kc5s65'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '61514'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fsearch'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsearch'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460120992.95
+    'REQUEST_TIME' => 1460120992
+]
