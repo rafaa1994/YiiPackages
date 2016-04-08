@@ -1,0 +1,1302 @@
+2016-02-23 00:11:26 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\EntryForm' not found' in D:\GitHub\rafix\frontend\controllers\SiteController.php:221
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-23 00:11:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51673'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456182686.076
+    'REQUEST_TIME' => 1456182686
+]
+2016-02-23 00:15:01 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\EntryForm' not found' in D:\GitHub\rafix\frontend\controllers\SiteController.php:221
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-23 00:15:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51723'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456182901.215
+    'REQUEST_TIME' => 1456182901
+]
+2016-02-23 00:17:30 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\EntryForm' not found' in D:\GitHub\rafix\frontend\controllers\SiteController.php:221
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-23 00:17:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51758'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456183050.266
+    'REQUEST_TIME' => 1456183050
+]
+2016-02-23 00:17:42 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\EntryForm' in file: D:\GitHub\rafix/frontend/models/EntryForm.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\GitHub\rafix\frontend\controllers\SiteController.php(222): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionEntry()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry', Array)
+#7 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-02-23 00:17:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456183062.483
+    'REQUEST_TIME' => 1456183062
+]
+2016-02-23 00:18:10 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\EntryForm' in file: D:\GitHub\rafix/frontend/models/EntryForm.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\GitHub\rafix\frontend\controllers\SiteController.php(222): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionEntry()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry', Array)
+#7 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-02-23 00:18:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51772'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456183089.933
+    'REQUEST_TIME' => 1456183089
+]
+2016-02-23 00:18:17 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\EntryForm' in file: D:\GitHub\rafix/frontend/models/EntryForm.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\GitHub\rafix\frontend\controllers\SiteController.php(222): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\SiteController->actionEntry()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry', Array)
+#7 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-02-23 00:18:17 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51777'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry'
+    'REQUEST_URI' => '/index.php?r=site/entry'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456183097.264
+    'REQUEST_TIME' => 1456183097
+]
+2016-02-23 01:28:34 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/entry-confirm' in D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry-confirm', Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry-conf...', Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-23 01:28:34 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][info][application] $_GET = [
+    'r' => 'site/entry-confirm'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hulevum'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '52117'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry-confirm'
+    'REQUEST_URI' => '/index.php?r=site/entry-confirm'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456187314.352
+    'REQUEST_TIME' => 1456187314
+]
+2016-02-23 01:29:26 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/entry-confirm.php' in D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry-confirm.p...', Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry-conf...', Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-23 01:29:26 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][info][application] $_GET = [
+    'r' => 'site/entry-confirm.php'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hulevum'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '52125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry-confirm.php'
+    'REQUEST_URI' => '/index.php?r=site/entry-confirm.php'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456187366.054
+    'REQUEST_TIME' => 1456187366
+]
+2016-02-23 01:29:30 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/entry-confirm' in D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('entry-confirm', Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/entry-conf...', Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-23 01:29:30 [127.0.0.1][-][pe7khv35g5gka4eaan6b00abs2][info][application] $_GET = [
+    'r' => 'site/entry-confirm'
+]
+
+$_COOKIE = [
+    '_csrf' => '2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe\";}'
+    'PHPSESSID' => 'pe7khv35g5gka4eaan6b00abs2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'hulevum'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=2c96153d0e55828555021e575d6027ac5918ca5aa06bfc1ac92be658f3191a0da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22uMmwLHH0eQtzEdmXxPLBc0_RI6EUtqLe%22%3B%7D; PHPSESSID=pe7khv35g5gka4eaan6b00abs2'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '52125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/entry-confirm'
+    'REQUEST_URI' => '/index.php?r=site/entry-confirm'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456187370.441
+    'REQUEST_TIME' => 1456187370
+]
+2016-02-23 13:43:37 [127.0.0.1][-][dsddt95058cihathkmqrcr5u23][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/hello' in D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('hello', Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/hello', Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-02-23 13:43:37 [127.0.0.1][-][dsddt95058cihathkmqrcr5u23][info][application] $_GET = [
+    'r' => 'site/hello'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dsddt95058cihathkmqrcr5u23'
+    '_csrf' => '2468847d84385c049b731f54bf0a2fd884d774df3478ac879b04724fbc237a7da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"T0BzOUmEGbzal7xE79yOPtkEgSX3eauf\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=dsddt95058cihathkmqrcr5u23; _csrf=2468847d84385c049b731f54bf0a2fd884d774df3478ac879b04724fbc237a7da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22T0BzOUmEGbzal7xE79yOPtkEgSX3eauf%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '49421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/hello'
+    'REQUEST_URI' => '/index.php?r=site/hello'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456231417.523
+    'REQUEST_TIME' => 1456231417
+]
+2016-02-23 23:24:51 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: D:\GitHub\rafix/frontend/controllers/CountryController.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-23 23:24:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '49782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456266291.034
+    'REQUEST_TIME' => 1456266291
+]
+2016-02-23 23:36:13 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: D:\GitHub\rafix/frontend/controllers/CountryController.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-23 23:36:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '49868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456266973.457
+    'REQUEST_TIME' => 1456266973
+]
+2016-02-23 23:41:53 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use frontend\models\Country as Country because the name is already in use' in D:\GitHub\rafix\frontend\controllers\CountryController.php:8
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): ::spl_autoload_call()
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): ::class_exists()
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController()
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-02-23 23:41:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '49920'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456267312.98
+    'REQUEST_TIME' => 1456267312
+]
+2016-02-23 23:42:20 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: D:\GitHub\rafix/frontend/controllers/CountryController.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-23 23:42:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '49924'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456267340.52
+    'REQUEST_TIME' => 1456267340
+]
+2016-02-23 23:49:20 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: D:\GitHub\rafix/frontend/controllers/CountryController.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-23 23:49:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '3862d1teauarh5rm1hak8tj1u3'
+    '_csrf' => '852f6a5390fe838a9ddf58bb9631f62b7de18e94d63dbd2b3be77ab75314c1dba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ypjT3wmKaG7k6cHCq09PZb9fAP7bSWiT\";}'
+]
+
+$_SERVER = [
+    'HTTP_ACCEPT' => 'text/html, application/xhtml+xml, image/jxr, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'test.loc'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3862d1teauarh5rm1hak8tj1u3; _csrf=852f6a5390fe838a9ddf58bb9631f62b7de18e94d63dbd2b3be77ab75314c1dba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ypjT3wmKaG7k6cHCq09PZb9fAP7bSWiT%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '50179'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456267760.683
+    'REQUEST_TIME' => 1456267760
+]
+2016-02-23 23:51:48 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Country' in file: D:\GitHub\rafix/frontend/models/Country.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 D:\GitHub\rafix\frontend\controllers\CountryController.php(14): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\CountryController->actionIndex()
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#7 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-02-23 23:51:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '50212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456267908.736
+    'REQUEST_TIME' => 1456267908
+]
+2016-02-24 00:35:45 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: D:\GitHub\rafix/frontend/controllers/CountryController.php. Namespace missing?' in D:\GitHub\rafix\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-24 00:35:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51828'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/index'
+    'REQUEST_URI' => '/index.php?r=country/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456270545.079
+    'REQUEST_TIME' => 1456270545
+]
+2016-02-24 00:39:36 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/update', Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-24 00:39:36 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][info][application] $_GET = [
+    'r' => 'country/update'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51879'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/update'
+    'REQUEST_URI' => '/index.php?r=country/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456270776.412
+    'REQUEST_TIME' => 1456270776
+]
+2016-02-24 00:40:02 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/update', Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-24 00:40:02 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][info][application] $_GET = [
+    'r' => 'country/update'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51887'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/update'
+    'REQUEST_URI' => '/index.php?r=country/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456270802.214
+    'REQUEST_TIME' => 1456270802
+]
+2016-02-24 00:42:58 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/update', Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-24 00:42:58 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][info][application] $_GET = [
+    'r' => 'country/update'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51913'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/update'
+    'REQUEST_URI' => '/index.php?r=country/update'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456270978.395
+    'REQUEST_TIME' => 1456270978
+]
+2016-02-24 00:43:12 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: id' in D:\GitHub\rafix\vendor\yiisoft\yii2\web\Controller.php:93
+Stack trace:
+#0 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/update', Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-02-24 00:43:12 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][info][application] $_GET = [
+    'r' => 'country/update'
+    90 => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51922'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/update&90'
+    'REQUEST_URI' => '/index.php?r=country/update&90'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456270992.416
+    'REQUEST_TIME' => 1456270992
+]
+2016-02-24 00:43:24 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested page does not exist.' in D:\GitHub\rafix\frontend\controllers\CountryController.php:118
+Stack trace:
+#0 D:\GitHub\rafix\frontend\controllers\CountryController.php(82): frontend\controllers\CountryController->findModel('90')
+#1 [internal function]: frontend\controllers\CountryController->actionUpdate('90')
+#2 D:\GitHub\rafix\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#5 D:\GitHub\rafix\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/update', Array)
+#6 D:\GitHub\rafix\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\GitHub\rafix\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-02-24 00:43:24 [127.0.0.1][-][nd8k14b052slsrt3k8p5vqjkb5][info][application] $_GET = [
+    'r' => 'country/update'
+    'id' => '90'
+]
+
+$_COOKIE = [
+    '_csrf' => '5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S\";}'
+    'PHPSESSID' => 'nd8k14b052slsrt3k8p5vqjkb5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.test.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5aab8f62ead0665913dee4b0809524bf2f5ff2f3eb6491893da147c782e05d6da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22edRUyosZ_6EHeIWiWDio0Q0OIX77HX2S%22%3B%7D; PHPSESSID=nd8k14b052slsrt3k8p5vqjkb5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.test.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.test.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/GitHub/rafix/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'D:/GitHub/rafix/frontend/web/index.php'
+    'REMOTE_PORT' => '51925'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country/update&id=90'
+    'REQUEST_URI' => '/index.php?r=country/update&id=90'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1456271004.416
+    'REQUEST_TIME' => 1456271004
+]

@@ -1,0 +1,1 @@
+Siemaaaaaaa!!! To moje pierwsze repo, dodajê usuwam i siê bawiê :D:D:D:D:D
