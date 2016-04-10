@@ -40,6 +40,16 @@ class AdminController extends Controller {
                         'allow' => true,
                         'roles' => ['@'],
                     ],
+                    [
+                        'actions' => ['update'],
+                        'allow' => true,
+                        'roles' => '@'
+                    ],
+                    [
+                        'actions' => ['view'],
+                        'allow' => true,
+                        'roles' => '@'
+                    ],
                 ],
             ],
             'verbs' => [
@@ -131,13 +141,14 @@ class AdminController extends Controller {
 
         $searchModel = new SearchAdmin();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $name = Yii::$app->user->identity;
-        $model = Admin::isRootAdmin($name['email']);
+
+        $userIdentity = Yii::$app->user->identity;
+        $access = Admin::isRootAdmin($userIdentity['email']);
 
         return $this->render('search', [
                     'searchModel' => $searchModel,
                     'dataProvider' => $dataProvider,
-                    'model' => $model,
+                    'access' => $access,
         ]);
     }
 
@@ -151,20 +162,24 @@ class AdminController extends Controller {
     public function actionUpdate($id) {
 
         $model = $this->findModel($id);
-        $user = Yii::$app->user->identity;
-        $access = Admin::isRootAdmin($user->email);
+        $user = Yii::$app->user->identity->email;
+        $access = Admin::isRootAdmin($user);
+       
+
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+            
             return $this->render('view', [
                         'model' => $model,
-                        
             ]);
-        } 
-        
-            return $this->render('update', [ 
-                'model' => $model,
-                'access' => $access,
-            ]);
-        
+        }
+
+        return $this->render('update', [
+                    'model' => $model,
+                    'access' => $access,
+                   
+        ]);
     }
 
     protected function findModel($id) {
