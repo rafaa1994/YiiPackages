@@ -26,7 +26,8 @@ class Admin extends ActiveRecord implements IdentityInterface {
     const ROLE_ADMIN = 10;
     const ROLE_ROOT = 20;
 
-    public $rights;
+   
+
     /**
      * @inheritdoc
      */
@@ -62,7 +63,7 @@ class Admin extends ActiveRecord implements IdentityInterface {
             ['email', 'filter', 'filter' => 'trim'],
             ['email', 'email'],
             ['email', 'string', 'max' => 255],
-            ['email', 'unique', 'targetClass' => '\common\models\Admin', 'message' => 'This email address has already been taken.'],
+            ['email', 'unique', 'message' => 'This email address has already been taken.'],
             ['company_id', 'integer'],
         ];
     }
@@ -74,8 +75,8 @@ class Admin extends ActiveRecord implements IdentityInterface {
                     'company_id' => 'Company'
         ];
     }
-
-    /**
+    
+    /*
      * @inheritdoc
      */
     public static function findIdentity($id) {
@@ -174,18 +175,26 @@ class Admin extends ActiveRecord implements IdentityInterface {
         throw new NotSupportedException('"findIdentityByAccessToken" is not implemented.');
     }
 
-    public static function isAdmin($email) {
+    public static function isAdmin($id) {
 
-        if (static::findOne(['email' => $email, 'role' => self::ROLE_ADMIN])) {
+        if (static::findOne(['id' => $id, 'role' => self::ROLE_ADMIN])) {
             return true;
         } else {
             return false;
         }
     }
 
-    public static function isRootAdmin($email) {
+    public static function isRootAdmin($id) {
 
-        if (static::findOne(['email' => $email, 'role' => self::ROLE_ROOT])) {
+        if (static::findOne(['id' => $id, 'role' => self::ROLE_ROOT])) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static function checkByAdminId($id) {
+        if (static::findOne(['id' => $id])) {
             return true;
         } else {
             return false;

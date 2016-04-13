@@ -16,12 +16,13 @@ $list = array('Admin', 'Root');
     <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
     <?= $form->field($model, 'name')->label('Name')->textInput() ?>
 
-    <?= $form->field($model, 'surname')->label('Username')->textInput() ?>
+    <?= $form->field($model, 'surname')->label('Surname')->textInput() ?>
 
     <?= $form->field($model, 'email')->label('Email')->textInput() ?>
 
     <?php
-    if ($access) {
+    if ((Yii::$app->user->identity->role == 20)? true : false) {
+    
         echo $form->field($model, 'company_id')->label('Company ID')->textInput();
         echo $form->field($model, 'role')->label('Uprawnienia')->dropDownList([20 => 'Root', 10 => 'Admin']);
     }

@@ -23,7 +23,7 @@ class AdminController extends Controller {
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'only' => ['logout', 'signup', 'search', 'update', 'view'],
                 'rules' => [
                     [
                         'actions' => ['signup'],
@@ -31,26 +31,30 @@ class AdminController extends Controller {
                         'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['search'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                    [
-                        'actions' => ['logout'],
+                        'actions' => ['search', 'logout', 'view'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
                     [
                         'actions' => ['update'],
                         'allow' => true,
-                        'roles' => '@'
-                    ],
-                    [
-                        'actions' => ['view'],
-                        'allow' => true,
-                        'roles' => '@'
+                        'roles' => ['@'],
+                        'matchCallback' => function($rule, $action) {
+
+                    $id_param = (int) Yii::$app->request->queryParams['id'];
+                    if (Admin::isRootAdmin(Yii::$app->user->id)) {
+                        return true;
+                    } else if (Admin::isAdmin(Yii::$app->user->id) && $id_param == Yii::$app->user->id) {
+                        return true;
+                    }
+                    return false;
+                }
                     ],
                 ],
+                'denyCallback' => function ($rule, $action) {
+
+            return $this->redirect(['admin/search']);
+        }
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
@@ -142,13 +146,9 @@ class AdminController extends Controller {
         $searchModel = new SearchAdmin();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        $userIdentity = Yii::$app->user->identity;
-        $access = Admin::isRootAdmin($userIdentity['email']);
-
         return $this->render('search', [
                     'searchModel' => $searchModel,
                     'dataProvider' => $dataProvider,
-                    'access' => $access,
         ]);
     }
 
@@ -162,13 +162,16 @@ class AdminController extends Controller {
     public function actionUpdate($id) {
 
         $model = $this->findModel($id);
-        $user = Yii::$app->user->identity->email;
-        $access = Admin::isRootAdmin($user);
-       
-
-
+        $company_id_origin = $model->company_id;
+        $role_origin = $model->role;
+      
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
+            
+            if (Yii::$app->user->identity->role == 10){
+                $model->company_id = $company_id_origin;
+                $model->role = $role_origin;
+                $model->save();
+            }
             
             return $this->render('view', [
                         'model' => $model,
@@ -177,8 +180,6 @@ class AdminController extends Controller {
 
         return $this->render('update', [
                     'model' => $model,
-                    'access' => $access,
-                   
         ]);
     }
 

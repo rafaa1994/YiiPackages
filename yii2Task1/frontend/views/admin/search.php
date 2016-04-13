@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 ],
                 'slug',
                 ['class' => 'yii\grid\ActionColumn',
-                'visible' => $access],
+                'visible' => (Yii::$app->user->identity->role == 20)? true : false],
                 
             ],
         ]);

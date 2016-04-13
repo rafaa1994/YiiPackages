@@ -17,6 +17,7 @@ use common\models\Admin;
 class Company extends ActiveRecord {
 
     /**
+     * 
      * @inheritdoc
      */
     
@@ -24,10 +25,20 @@ class Company extends ActiveRecord {
         return '{{%companies}}';
     }
 
-    public function getAdmin() {
+    /**
+     * @
+     * @return type
+     */
+    public function getAdmins() {
         return $this->hasMany(Admin::className(), ['company_id' => 'id']);
     }
 
+   
+    /**
+     * 
+     * @param type $id
+     * @return type
+     */
     public static function findIdentity($id) {
         return static::findOne(['id' => $id]);
     }
