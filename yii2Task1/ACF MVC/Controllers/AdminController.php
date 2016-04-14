@@ -39,8 +39,22 @@ class AdminController extends Controller {
                         'actions' => ['update'],
                         'allow' => true,
                         'roles' => ['@'],
+                        'matchCallback' => function($rule, $action) {
+
+                    $id_param = (int) Yii::$app->request->queryParams['id'];
+                    if (Admin::isRootAdmin(Yii::$app->user->id)) {
+                        return true;
+                    } else if (Admin::isAdmin(Yii::$app->user->id) && $id_param == Yii::$app->user->id) {
+                        return true;
+                    }
+                    return false;
+                }
                     ],
                 ],
+                'denyCallback' => function ($rule, $action) {
+
+            return $this->redirect(['admin/search']);
+        }
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
@@ -150,17 +164,21 @@ class AdminController extends Controller {
         $model = $this->findModel($id);
         $company_id_origin = $model->company_id;
         $role_origin = $model->role;
-
-        var_dump(Yii::$app->user->can('updateOwnAccount', ['post' => $id]));
-            die;
         
+      
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             
-
+            if (Yii::$app->user->identity->role == 10){
+                $model->company_id = $company_id_origin;
+                $model->role = $role_origin;
+                $model->save();
+            }
+            
             return $this->render('view', [
                         'model' => $model,
             ]);
         }
+
         return $this->render('update', [
                     'model' => $model,
         ]);

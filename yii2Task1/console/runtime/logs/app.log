@@ -1,0 +1,3131 @@
+2016-04-14 11:29:14 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(562): m140506_102106_rbac_init->up()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(151): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('migrate', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('migrate', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#12 {main}
+2016-04-14 11:29:12 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460626152.182
+    'REQUEST_TIME' => 1460626152
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2016-04-14 11:56:38 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 11:56:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460627798.4351
+    'REQUEST_TIME' => 1460627798
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 11:59:38 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "controllers/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('controllers/ini...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('controllers/ini...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "controllers/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('controllers/ini...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 11:59:38 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460627978.542
+    'REQUEST_TIME' => 1460627978
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'controllers/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 11:59:44 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 11:59:44 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460627984.3468
+    'REQUEST_TIME' => 1460627984
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 11:59:45 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 11:59:45 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460627985.8543
+    'REQUEST_TIME' => 1460627985
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 11:59:47 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 11:59:47 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460627987.5056
+    'REQUEST_TIME' => 1460627987
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:01:33 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:01:33 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628093.5645
+    'REQUEST_TIME' => 1460628093
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:28 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:28 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628388.8571
+    'REQUEST_TIME' => 1460628388
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:30 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:30 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628390.3047
+    'REQUEST_TIME' => 1460628390
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628390.9901
+    'REQUEST_TIME' => 1460628390
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628391.3666
+    'REQUEST_TIME' => 1460628391
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628391.6098
+    'REQUEST_TIME' => 1460628391
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:06:31 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:06:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628391.8242
+    'REQUEST_TIME' => 1460628391
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:15:29 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "controllers/rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('controllers/rba...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('controllers/rba...', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "controllers/rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('controllers/rba...', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:15:29 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628929.4607
+    'REQUEST_TIME' => 1460628929
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'controllers/rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:15:35 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:15:35 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460628935.5893
+    'REQUEST_TIME' => 1460628935
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:23:21 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:23:21 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460629401.7707
+    'REQUEST_TIME' => 1460629401
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:24:15 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:24:15 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460629455.4173
+    'REQUEST_TIME' => 1460629455
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:28:07 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac/init".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:28:07 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460629687.2603
+    'REQUEST_TIME' => 1460629687
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:35:57 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac', Array)
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:35:57 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460630157.7294
+    'REQUEST_TIME' => 1460630157
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2016-04-14 12:36:18 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: rbac/' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('', Array)
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac', Array)
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "rbac".' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php:169
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac', Array)
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#3 {main}
+2016-04-14 12:36:18 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460630178.349
+    'REQUEST_TIME' => 1460630178
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:28:02 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 14:28:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460636882.578
+    'REQUEST_TIME' => 1460636882
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:28:47 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460636927;s:9:\"updatedAt\";i:1460636927;}', 1460636927, 1460636927)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:28:47 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460636927.4904
+    'REQUEST_TIME' => 1460636927
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:30:39 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637039;s:9:\"updatedAt\";i:1460637039;}', 1460637039, 1460637039)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:30:39 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637039.8454
+    'REQUEST_TIME' => 1460637039
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:32:08 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 14:32:08 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637128.8521
+    'REQUEST_TIME' => 1460637128
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:32:31 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637151;s:9:\"updatedAt\";i:1460637151;}', 1460637151, 1460637151)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:32:31 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637151.1088
+    'REQUEST_TIME' => 1460637151
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:38:01 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637481;s:9:\"updatedAt\";i:1460637481;}', 1460637481, 1460637481)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:38:01 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637481.6293
+    'REQUEST_TIME' => 1460637481
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:38:35 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637515;s:9:\"updatedAt\";i:1460637515;}', 1460637515, 1460637515)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:38:35 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637515.2044
+    'REQUEST_TIME' => 1460637515
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:38:40 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637520;s:9:\"updatedAt\";i:1460637520;}', 1460637520, 1460637520)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:38:40 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637520.5013
+    'REQUEST_TIME' => 1460637520
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:38:43 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637523;s:9:\"updatedAt\";i:1460637523;}', 1460637523, 1460637523)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:38:43 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637523.1941
+    'REQUEST_TIME' => 1460637523
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:41:49 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637709;s:9:\"updatedAt\";i:1460637709;}', 1460637709, 1460637709)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:41:49 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637709.0734
+    'REQUEST_TIME' => 1460637709
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:45:34 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460637934;s:9:\"updatedAt\";i:1460637934;}', 1460637934, 1460637934)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 14:45:34 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460637934.8604
+    'REQUEST_TIME' => 1460637934
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 14:55:48 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 14:55:48 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460638548.7257
+    'REQUEST_TIME' => 1460638548
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 15:00:14 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460638814;s:9:\"updatedAt\";i:1460638814;}', 1460638814, 1460638814)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 15:00:14 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460638814.2311
+    'REQUEST_TIME' => 1460638814
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 15:00:22 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460638822;s:9:\"updatedAt\";i:1460638822;}', 1460638822, 1460638822)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 15:00:22 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460638822.0742
+    'REQUEST_TIME' => 1460638822
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 15:00:22 [-][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php:784
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(784): PDOStatement->execute()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'isAdmin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_rule` (`name`, `data`, `created_at`, `updated_at`) VALUES ('isAdmin', 'O:24:\"console\\models\\AdminRule\":3:{s:4:\"name\";s:7:\"isAdmin\";s:9:\"createdAt\";i:1460638822;s:9:\"updatedAt\";i:1460638822;}', 1460638822, 1460638822)' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Schema.php:628
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\db\Command.php(794): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php(356): yii\db\Command->execute()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\BaseManager.php(120): yii\rbac\DbManager->addRule(Object(console\models\AdminRule))
+#3 C:\wamp\www\YiiPackages\yii2Task1\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(console\models\AdminRule))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction('init', Array)
+#8 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction('rbac/init', Array)
+#10 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'isAdmin' for key 'PRIMARY'
+)
+
+2016-04-14 15:00:22 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460638822.7584
+    'REQUEST_TIME' => 1460638822
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 15:59:41 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 15:59:41 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642381.1152
+    'REQUEST_TIME' => 1460642381
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 15:59:50 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 15:59:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642390.2882
+    'REQUEST_TIME' => 1460642390
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 16:00:13 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 16:00:13 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642413.5699
+    'REQUEST_TIME' => 1460642413
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 16:00:16 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 16:00:16 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642416.2012
+    'REQUEST_TIME' => 1460642416
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 16:00:17 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 16:00:17 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\'
+    'PHP_SELF' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_NAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'SCRIPT_FILENAME' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'PATH_TRANSLATED' => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642417.5553
+    'REQUEST_TIME' => 1460642417
+    'argv' => [
+        0 => 'C:\\wamp\\www\\YiiPackages\\yii2Task1\\yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2016-04-14 16:00:29 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:684
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): console\controllers\RbacController->actionInit()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Controller.php(108): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(167): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction()
+#7 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest()
+#8 C:\wamp\www\YiiPackages\yii2Task1\yii(27): yii\base\Application->run()
+#9 {main}
+2016-04-14 16:00:29 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\rafaa\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-7B8MOTJ'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\rafaa'
+    'LOCALAPPDATA' => 'C:\\Users\\rafaa\\AppData\\Local'
+    'LOGONSERVER' => '\\\\MicrosoftAccount'
+    'NO_XILINX_DATA_LICENSE' => 'HIDDEN'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\rafaa\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-7B8MOTJ'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-7B8MOTJ'
+    'USERNAME' => 'rafaa'
+    'USERPROFILE' => 'C:\\Users\\rafaa'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1460642429.6622
+    'REQUEST_TIME' => 1460642429
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
