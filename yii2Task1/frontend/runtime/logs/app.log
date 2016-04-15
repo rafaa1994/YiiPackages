@@ -31049,3 +31049,467 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460704333.707
     'REQUEST_TIME' => 1460704333
 ]
+2016-04-15 10:31:21 [127.0.0.1][36][bca5s0edouas8oauigi4gbir93][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Wrong parameter count for var_dump()' in C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php:154
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 10:31:21 [127.0.0.1][36][bca5s0edouas8oauigi4gbir93][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '36'
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => 'bca5s0edouas8oauigi4gbir93'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 36
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_REFERER' => 'http://prog.loc/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=bca5s0edouas8oauigi4gbir93'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '52930'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=36'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=36'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460709081.265
+    'REQUEST_TIME' => 1460709081
+]
+2016-04-15 10:50:47 [127.0.0.1][3][bck83hvb4gmfbnd5ac18979nr5][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:812
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 10:50:47 [127.0.0.1][3][bck83hvb4gmfbnd5ac18979nr5][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf' => 'c3NmSXd0X08cFC48PzMpAx83FzATLTMMBAIiPD4ObCUXOi4kJhc4Pw=='
+    'Admin' => [
+        'name' => 'Rafal'
+        'surname' => 'Ste'
+        'email' => 'rafaa@gmail.com'
+        'company_id' => '2'
+        'role' => '20'
+    ]
+    'update-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => 'bck83hvb4gmfbnd5ac18979nr5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 3
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '204'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fupdate&id=2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=bck83hvb4gmfbnd5ac18979nr5'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '55143'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=2'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460710247.386
+    'REQUEST_TIME' => 1460710247
+]
+2016-04-15 10:55:15 [127.0.0.1][37][9ufa9pvba22b5e7e9pncb81bm1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:812
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 10:55:15 [127.0.0.1][37][9ufa9pvba22b5e7e9pncb81bm1][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '38'
+]
+
+$_POST = [
+    '_csrf' => 'QWJMYWs3UUcuBQQUI3AnCy0mPRgPbj0ENhMIFCJNYi0lKwQMOlQ2Nw=='
+    'Admin' => [
+        'name' => 'user'
+        'surname' => 'user'
+        'email' => 'user@gmail.com'
+        'company_id' => '4'
+        'role' => '20'
+    ]
+    'update-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => '9ufa9pvba22b5e7e9pncb81bm1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 37
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '203'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fupdate&id=38'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=9ufa9pvba22b5e7e9pncb81bm1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '55493'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=38'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=38'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460710515.605
+    'REQUEST_TIME' => 1460710515
+]
+2016-04-15 11:23:33 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:812
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 11:23:33 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '41'
+]
+
+$_POST = [
+    '_csrf' => 'eVI0Qm1NVzAWNXw3JQohfBUWRTsJFDtzDiNwNyQ3ZFodG3wvPC4wQA=='
+    'Admin' => [
+        'name' => 'user'
+        'surname' => 'user'
+        'email' => 'user@gmail.com'
+        'company_id' => '12'
+        'role' => '10'
+    ]
+    'update-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => 'aatrquvfm2fonnibu1bdardc90'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 40
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '204'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fupdate&id=41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=aatrquvfm2fonnibu1bdardc90'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '57642'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=41'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460712213.461
+    'REQUEST_TIME' => 1460712213
+]
+2016-04-15 11:27:19 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:812
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 11:27:19 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '41'
+]
+
+$_POST = [
+    '_csrf' => 'dFRpZ0dLaDkbMyESDwwedRgQGB4jEgR6AyUtEg4xW1MQHSEKFigPSQ=='
+    'Admin' => [
+        'name' => 'user'
+        'surname' => 'user'
+        'email' => 'user@gmail.com'
+        'company_id' => '12'
+        'role' => '10'
+    ]
+    'update-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => 'aatrquvfm2fonnibu1bdardc90'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 40
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '204'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fupdate&id=41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=aatrquvfm2fonnibu1bdardc90'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '57997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=41'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460712439.072
+    'REQUEST_TIME' => 1460712439
+]
+2016-04-15 11:29:21 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\rbac\DbManager.php:812
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionUpdate()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#6 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-04-15 11:29:21 [127.0.0.1][40][aatrquvfm2fonnibu1bdardc90][info][application] $_GET = [
+    'r' => 'admin/update'
+    'id' => '41'
+]
+
+$_POST = [
+    '_csrf' => 'dFRpZ0dLaDkbMyESDwwedRgQGB4jEgR6AyUtEg4xW1MQHSEKFigPSQ=='
+    'Admin' => [
+        'name' => 'user'
+        'surname' => 'user'
+        'email' => 'user@gmail.com'
+        'company_id' => '12'
+        'role' => '10'
+    ]
+    'update-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp\";}'
+    'PHPSESSID' => 'aatrquvfm2fonnibu1bdardc90'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 40
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'prog.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '204'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://prog.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://prog.loc/index.php?r=admin%2Fupdate&id=41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=573492dd5a12cf4d07bf371f9911b4e9632000e7bb6279d7c7553dee52e76255a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ogHuHGvLlDqydYlCwqDuIz3jdIHmQcgp%22%3B%7D; PHPSESSID=aatrquvfm2fonnibu1bdardc90'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at prog.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'prog.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '58271'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fupdate&id=41'
+    'REQUEST_URI' => '/index.php?r=admin%2Fupdate&id=41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460712561.504
+    'REQUEST_TIME' => 1460712561
+]

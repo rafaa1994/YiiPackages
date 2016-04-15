@@ -147,23 +147,27 @@ class AdminController extends Controller {
 
     public function actionUpdate($id) {
 
+        $auth = Yii::$app->authManager;
         $model = $this->findModel($id);
         $company_id_origin = $model->company_id;
         $role_origin = $model->role;
 
-        var_dump(Yii::$app->user->can('updateAsRoot', ['post' => $id]));
-            die;
-        
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            
+        if (Yii::$app->user->can('update', ['post' => $id])) {
 
-            return $this->render('view', [
+            if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+                $role = ($model->role == 20) ? $auth->getRole('Root') : $auth->getRole('Admin');
+                $auth->revokeAll($id);
+                $auth->assign($role, $id);
+                return $this->render('view', [
+                            'model' => $model,
+                ]);
+            }
+
+            return $this->render('update', [
                         'model' => $model,
             ]);
         }
-        return $this->render('update', [
-                    'model' => $model,
-        ]);
     }
 
     protected function findModel($id) {

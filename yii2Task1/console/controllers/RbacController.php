@@ -28,23 +28,23 @@ class RbacController extends Controller {
 
 
         // add "updateAsRoot" permission
-        $updateAsRoot = $auth->createPermission('updateAsRoot');
-        $updateAsRoot->description = 'Update All Accounts as Root';
-        $auth->add($updateAsRoot);
+        $update = $auth->createPermission('update');
+        $update->description = 'Update All Accounts';
+        $auth->add($update);
 
-        $auth->addChild($updateOwnAccount,$updateAsRoot);
+        $auth->addChild($updateOwnAccount,$update);
 
         // add "root" role and give this role the "update" permission
         // as well as the permissions of the "author" role, and "updateAsRoot" permission
         $root = $auth->createRole('Root');
         $auth->add($root);
         $auth->addChild($root, $admin);
-        $auth->addChild($root, $updateAsRoot);
+        $auth->addChild($root, $update);
 
         // Assign roles to users. 1 and 2 are IDs returned by IdentityInterface::getId()
         // usually implemented in your User model.
-        $auth->assign($root, 2);
-        $auth->assign($admin, 1);
+        //$auth->assign($root, 2);
+        //$auth->assign($admin, 1);
     }
 
 }

@@ -3,6 +3,8 @@
 use yii\widgets\DetailView;
 
 $this->title = 'Edit Account: ' . ' ' . $model->name . ' ' . $model->surname;
+$this->params['breadcrumbs'][] = ['label' => 'Registered Users',
+    'url' => ['search']];
 $this->params['breadcrumbs'][] = ['label' => $model->name . ' ' . $model->surname,
     'url' => ['view', 'id' => $model->id]];
 

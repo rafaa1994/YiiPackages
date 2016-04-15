@@ -21,7 +21,7 @@ $list = array('Admin', 'Root');
     <?= $form->field($model, 'email')->label('Email')->textInput() ?>
 
     <?php
-    if ((Yii::$app->user->identity->role == 20)? true : false) {
+    if ((Yii::$app->user->identity->role == 20) ? true : false) {
     
         echo $form->field($model, 'company_id')->label('Company ID')->textInput();
         echo $form->field($model, 'role')->label('Uprawnienia')->dropDownList([20 => 'Root', 10 => 'Admin']);
