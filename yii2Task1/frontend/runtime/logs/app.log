@@ -30815,3 +30815,237 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1460641108.213
     'REQUEST_TIME' => 1460641108
 ]
+2016-04-15 09:09:08 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 1' in C:\wamp\www\YiiPackages\yii2Task1\frontend\models\Company.php:49
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(113): frontend\models\SignupForm->signup()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 09:09:07 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'eGcycC5ib29IDn45fTApGjQqVxl8Oj0uVSFqGEg9XAoiD3lIaFYENg=='
+    'SignupForm' => [
+        'name' => 'rafffff'
+        'surname' => 'rrrrr'
+        'email' => 'raffff1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'h2tqf2sqpd3fh587s1e0nc8fd6'
+    '_csrf' => '71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.task1.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.task1.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.task1.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=h2tqf2sqpd3fh587s1e0nc8fd6; _csrf=71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.task1.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.task1.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '13071'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460704147.975
+    'REQUEST_TIME' => 1460704147
+]
+2016-04-15 09:12:04 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 1' in C:\wamp\www\YiiPackages\yii2Task1\frontend\models\Company.php:49
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(113): frontend\models\SignupForm->signup()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 09:12:04 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'eGcycC5ib29IDn45fTApGjQqVxl8Oj0uVSFqGEg9XAoiD3lIaFYENg=='
+    'SignupForm' => [
+        'name' => 'rafffff'
+        'surname' => 'rrrrr'
+        'email' => 'raffff1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'h2tqf2sqpd3fh587s1e0nc8fd6'
+    '_csrf' => '71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.task1.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.task1.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.task1.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=h2tqf2sqpd3fh587s1e0nc8fd6; _csrf=71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.task1.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.task1.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '13228'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460704324.823
+    'REQUEST_TIME' => 1460704324
+]
+2016-04-15 09:12:13 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 1' in C:\wamp\www\YiiPackages\yii2Task1\frontend\models\Company.php:49
+Stack trace:
+#0 C:\wamp\www\YiiPackages\yii2Task1\frontend\controllers\AdminController.php(113): frontend\models\SignupForm->signup()
+#1 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\AdminController->actionSignup()
+#2 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#3 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#4 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#5 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#6 C:\wamp\www\YiiPackages\yii2Task1\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#7 C:\wamp\www\YiiPackages\yii2Task1\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-04-15 09:12:13 [127.0.0.1][-][h2tqf2sqpd3fh587s1e0nc8fd6][info][application] $_GET = [
+    'r' => 'admin/signup'
+]
+
+$_POST = [
+    '_csrf' => 'eGcycC5ib29IDn45fTApGjQqVxl8Oj0uVSFqGEg9XAoiD3lIaFYENg=='
+    'SignupForm' => [
+        'name' => 'rafffff'
+        'surname' => 'rrrrr'
+        'email' => 'raffff1994@gmail.com'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'h2tqf2sqpd3fh587s1e0nc8fd6'
+    '_csrf' => '71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"0iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.task1.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '217'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.task1.loc'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.task1.loc/index.php?r=admin%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'pl-PL,pl;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=h2tqf2sqpd3fh587s1e0nc8fd6; _csrf=71d66bf409d5355555ed9b46cc7b85108d2a6ec835e0ec0f722870225429a645a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%220iLISRFuLMeiRXRA-FXhf_3eZhK8F4kY%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at www.task1.loc Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'www.task1.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/YiiPackages/yii2Task1/frontend/web/index.php'
+    'REMOTE_PORT' => '13230'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=admin%2Fsignup'
+    'REQUEST_URI' => '/index.php?r=admin%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1460704333.707
+    'REQUEST_TIME' => 1460704333
+]

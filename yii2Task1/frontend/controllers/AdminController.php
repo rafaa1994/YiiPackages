@@ -151,7 +151,7 @@ class AdminController extends Controller {
         $company_id_origin = $model->company_id;
         $role_origin = $model->role;
 
-        var_dump(Yii::$app->user->can('updateOwnAccount', ['post' => $id]));
+        var_dump(Yii::$app->user->can('updateAsRoot', ['post' => $id]));
             die;
         
         if ($model->load(Yii::$app->request->post()) && $model->save()) {

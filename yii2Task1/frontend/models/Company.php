@@ -45,7 +45,8 @@ class Company extends ActiveRecord {
 
     public function getRandomCompanyID() {
         $companies = Company::find()->asArray()->all();
-        $rand = mt_rand(0, count($companies));
+        $rand = mt_rand(0, count($companies)-1);
+        
         $company_id = $companies[$rand];
         return (int)$company_id['id'];
     }

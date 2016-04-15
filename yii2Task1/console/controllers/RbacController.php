@@ -32,7 +32,7 @@ class RbacController extends Controller {
         $updateAsRoot->description = 'Update All Accounts as Root';
         $auth->add($updateAsRoot);
 
-        $auth->addChild($updateAsRoot, $updateOwnAccount);
+        $auth->addChild($updateOwnAccount,$updateAsRoot);
 
         // add "root" role and give this role the "update" permission
         // as well as the permissions of the "author" role, and "updateAsRoot" permission
