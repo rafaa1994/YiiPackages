@@ -167,6 +167,8 @@ class Admin extends ActiveRecord implements IdentityInterface {
     public function getCompany() {
         return $this->hasOne(Company::className(), ['id' => 'company_id']);
     }
+    
+    
 
     /**
      * @inheritdoc

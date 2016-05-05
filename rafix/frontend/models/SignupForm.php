@@ -10,7 +10,7 @@ use Yii;
  */
 class SignupForm extends Model
 {
-    public $username;
+    public $username;           
     public $email;
     public $password;
 

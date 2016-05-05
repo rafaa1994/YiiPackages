@@ -39,8 +39,14 @@ class AdminController extends Controller {
                         'actions' => ['update'],
                         'allow' => true,
                         'roles' => ['@'],
+                        'matchCallback' => function ($rule, $action) {
+                            return (Yii::$app->user->can('update', ['id' => Yii::$app->user->id]));
+                        }
                     ],
                 ],
+              'denyCallback' => function ($rule, $action) {
+               throw new \Exception(Yii::t('app','Nie masz uprawień do tej strony'));
+                }      
             ],
             'verbs' => [
                 'class' => VerbFilter::className(),
@@ -147,27 +153,24 @@ class AdminController extends Controller {
 
     public function actionUpdate($id) {
 
-        $auth = Yii::$app->authManager;
+        
         $model = $this->findModel($id);
-        $company_id_origin = $model->company_id;
-        $role_origin = $model->role;
+        $beforeUpdateRole = $model->role;
 
-        if (Yii::$app->user->can('update', ['post' => $id])) {
+        if (Yii::$app->user->can('update', ['id' => $id])) {
 
             if ($model->load(Yii::$app->request->post()) && $model->save()) {
-
-                $role = ($model->role == 20) ? $auth->getRole('Root') : $auth->getRole('Admin');
-                $auth->revokeAll($id);
-                $auth->assign($role, $id);
+                $this->changeRole($model,$beforeUpdateRole);
                 return $this->render('view', [
                             'model' => $model,
                 ]);
             }
-
+            
             return $this->render('update', [
                         'model' => $model,
             ]);
         }
+        return $this->redirect(['admin/search']);
     }
 
     protected function findModel($id) {
@@ -177,6 +180,15 @@ class AdminController extends Controller {
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
+    }
+    
+    protected function changeRole($model,$role){
+        $auth = Yii::$app->authManager;
+         if ($model->role != $role){
+                $role = ($model->role == 20) ? $auth->getRole('Root') : $auth->getRole('Admin');
+                $auth->revokeAll($model->id);
+                $auth->assign($role, $model->id);
+            }
     }
 
 }
